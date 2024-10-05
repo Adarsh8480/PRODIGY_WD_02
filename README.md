@@ -21,9 +21,11 @@ How It Works
 Start: Click the "Start" button to begin the stopwatch.
 Stop: Click the "Stop" button to pause the stopwatch.
 Reset: Click the "Reset" button to reset the stopwatch back to zero.
+
 Future Enhancements
 Add a Lap Functionality to allow users to record multiple lap times.
 Implement Countdown Timer Mode as an additional feature.
 Allow customization of the UI theme (e.g., light/dark mode).
+
 Contributions
 Feel free to fork this repository, make changes, and submit pull requests. Feedback and suggestions are always welcome!
