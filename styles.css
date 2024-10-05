@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.time-display {
+    font-size: 48px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Lap Styles */
+.laps {
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.lap {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.lap:hover {
+    background-color: #ffefeb;
+    transform: scale(1.05);
+}
+
+.lap-number {
+    font-weight: bold;
+}
+
+.clear-laps-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clear-laps-btn:hover {
+    background-color: #ff4500;
+}
+
+.clear-laps-btn:active {
+    transform: scale(0.95);
+}
